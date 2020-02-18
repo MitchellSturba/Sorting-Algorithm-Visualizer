@@ -8,3 +8,5 @@ Press the space bar after launching the Jar file to watch the array go from this
 To this:
 
 ![SortedImage](Sorted.png)
+
+I have also added a version of the sorting algorithm that includes a sort by colour option in the files.
