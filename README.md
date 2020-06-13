@@ -4,7 +4,7 @@ Have you ever wondered what bubble sort looks like? Me neither! However, if you 
 <br>
 
 <img src="NewDemo.gif" width="600px">
-<br>There is also a colorful version<br>
+There is also a colorful version<br>
 <img src="colordemo.gif" width="600px">
 
 <h2>Unsorted</h2>
