@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Sorting-Algorithm-Visualizer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ColourBubbleSortVisual.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Bubble Sort Visual.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

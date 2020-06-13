@@ -13,7 +13,7 @@ public class SortingVisual implements ActionListener, KeyListener {
     JFrame jFrame;
     RenderPanel renderpanel;
     Timer tim = new Timer(10, this);
-    public int points = 500, X,Y, ticks = 0;
+    public int points = 800, X,Y, ticks = 0;
     public Point[] p = new Point[points];
     public Point tmpP = new Point();
     public boolean start = false;
@@ -25,18 +25,14 @@ public class SortingVisual implements ActionListener, KeyListener {
             p[i] = new Point();
         }
         for (int i = 0; i < points; i++) {
-            X = rand.nextInt(800);
             Y = rand.nextInt(590);
             for (int j = 0; j < points; j++) {
-                if (p[j].x == X) {
-                    X = rand.nextInt(600);
-                }
                 if (p[j].x > p[j].y) {
                     Y = rand.nextInt(560);
                 }
             }
 
-            p[i].x = X;
+            p[i].x = i;
             p[i].y = Y;
 
         }
@@ -52,6 +48,9 @@ public class SortingVisual implements ActionListener, KeyListener {
         tim.start();
 
     }
+
+    public float px1 = 0;
+    public float px2 = 0;
 
     @Override
     public void actionPerformed(ActionEvent arg0) {
