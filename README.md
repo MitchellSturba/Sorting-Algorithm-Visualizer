@@ -1,7 +1,7 @@
 # Sorting-Algorithm-Visualizer
 <h2>Overview</h2>
 
-Have you ever wondered what bubble sort looks like? Well then this executable JAR file will show you a very quick step-by-step visualization of how bubble sort works. Press the space bar after launching the Jar file to watch the array sort itself into ascending order. There are two versions; black or colourful.
+Have you ever wondered what bubble sort looks like? If so, then this executable JAR file will show you a very quick step-by-step visualization of how bubble sort works. Press the space bar after launching the Jar file to watch the array sort itself into ascending order. There are two versions; black or colourful.
 <br>
 
 <img src="DemoNewNew.gif" width="50%"><img src="colordemo.gif" width="50%">
