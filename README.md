@@ -18,5 +18,3 @@ The sorted version of the array is a product of a very basic sorting algorithm a
 
 ![SortedImage](NewSorted.png)
 <br>
-
-I have also added a version of the sorting algorithm that includes a sort by colour option in the files.
