@@ -18,3 +18,32 @@ The sorted version of the array is a product of a very basic sorting algorithm a
 
 ![SortedImage](NewSorted.png)
 <br>
+
+<h2>Code Snippet</h2>
+Below is the acutal sorting that is happening every 5000 internal clicks.  The algorithm runs in O(n^2) and is one of the lesser efficient sorting algorithms. Future updates will include different sorts happening with diffrent button clicks. Future plans also will include a button to re-scramble the points in order to sort them again.
+
+<br>
+
+```
+for (int i = 0; i < points; i++) {
+    for (int j = 1; j < (points - i); j++) {
+        if (ticks % 5000 == 0) {
+            if (p[j-1].y < p[j].y) {
+               tmpP.y = p[j-1].y;
+               p[j-1].y = p[j].y;
+               p[j].y = tmpP.y;
+             }
+
+             if (p[j-1].x > p[j].x) {
+                tmpP.x = p[j].x;
+                p[j].x = p[j-1].x;
+                p[j-1].x = tmpP.x;
+             }
+             Selected.x = p[i].x;
+             Selected.y = p[i].y;
+             renderpanel.repaint();
+          }
+          ticks++;
+      }
+}
+```
