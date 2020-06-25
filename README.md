@@ -39,8 +39,6 @@ for (int i = 0; i < points; i++) {
                 p[j].x = p[j-1].x;
                 p[j-1].x = tmpP.x;
              }
-             Selected.x = p[i].x;
-             Selected.y = p[i].y;
              renderpanel.repaint();
           }
           ticks++;
